@@ -7,11 +7,12 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage:{
-        "gradient-hero": "var(--gradiant, linear-gradient(169deg, #3060FF 0%, #10299F 100%))"
+      backgroundImage: {
+        'gradient-hero':
+          'var(--gradiant, linear-gradient(169deg, #3060FF 0%, #10299F 100%))',
       },
-      colors:{
-        blue:{
+      colors: {
+        blue: {
           50: '#e8f4ff',
           100: '#d5eaff',
           200: '#b3d6ff',
@@ -22,22 +23,22 @@ module.exports = {
           700: '#0325ff',
           800: '#0724cc',
           900: '#10299f',
-          950: "#040926"
+          950: '#040926',
         },
-        gray:{
-          50: "#f6f6f7",
-          100: "#efeff0",
-          200: "#e1e2e4",
-          300: "#cecfd3",
-          400: "#b9bac0",
-          500: "#a1a1aa",
-          600: "#91919a",
-          700: "#7d7d85",
-          800: "#66666d",
-          900: "#55555a",
-          950: "#323234",
-        }
-      }
+        gray: {
+          50: '#f6f6f7',
+          100: '#efeff0',
+          200: '#e1e2e4',
+          300: '#cecfd3',
+          400: '#b9bac0',
+          500: '#a1a1aa',
+          600: '#91919a',
+          700: '#7d7d85',
+          800: '#66666d',
+          900: '#55555a',
+          950: '#323234',
+        },
+      },
     },
   },
   plugins: [],
