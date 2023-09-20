@@ -25,13 +25,19 @@ export function Header() {
         <div>
           <ul className="flex gap-6 text-sm">
             <li>
-              <a href="#">Projetos</a>
+              <a href="#" className="transition hover:text-gray-400">
+                Projetos
+              </a>
             </li>
             <li>
-              <a href="#">Sobre</a>
+              <a href="#" className="transition hover:text-gray-400">
+                Sobre
+              </a>
             </li>
             <li>
-              <a href="#">Serviços</a>
+              <a href="#" className="transition hover:text-gray-400">
+                Serviços
+              </a>
             </li>
           </ul>
         </div>
@@ -47,7 +53,7 @@ export function Header() {
             interativas e intuitivas. Com habilidades em HTML, CSS e JavaScript,
             ele transforma conceitos em designs funcionais.{' '}
           </p>
-          <button className="flex items-center gap-2 rounded-lg bg-gray-50 px-6 py-4 text-black">
+          <button className="flex items-center gap-2 rounded-lg bg-gray-50 px-6 py-4 text-black transition hover:bg-gray-300">
             SOLICITE SUA PROPOSTA
             <ArrowRight size={24} />
           </button>

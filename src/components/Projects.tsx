@@ -18,10 +18,10 @@ export function Projects() {
             </p>
           </div>
           <div className="space-x-4">
-            <button className="border border-blue-500 p-6">
+            <button className="border border-blue-500 p-6 transition hover:bg-blue-500">
               <ArrowLeft size={24} />
             </button>
-            <button className="border border-blue-500 p-6">
+            <button className="border border-blue-500 p-6 transition hover:bg-blue-500">
               <ArrowRight size={24} />
             </button>
           </div>
