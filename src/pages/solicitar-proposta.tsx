@@ -2,12 +2,12 @@ import { Envelope } from 'phosphor-react'
 
 export default function Proposed() {
   return (
-    <div className="grid place-items-center py-20">
+    <div className="grid place-items-center py-20 sm:flex sm:flex-col sm:px-6">
       <div className="flex flex-col items-center gap-5 pb-8">
         <Envelope size={58} />
-        <h1 className="text-5xl">Solicite sua proposta</h1>
+        <h1 className="text-5xl sm:text-3xl">Solicite sua proposta</h1>
       </div>
-      <div className="w-5/12 rounded-lg bg-blue-950 p-10">
+      <div className="w-5/12 rounded-lg bg-blue-950 p-10 sm:w-full">
         <form action="" className="flex flex-col gap-7">
           <div className="flex flex-col gap-3">
             <label htmlFor="" className="text-gray-400">

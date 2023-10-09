@@ -2,9 +2,11 @@ import { ArrowRight, GithubLogo, LinkedinLogo } from 'phosphor-react'
 
 export function Footer() {
   return (
-    <footer className="mx-auto max-w-[1216px] py-20">
+    <footer className="mx-auto max-w-[1216px] py-20 sm:px-6 sm:py-10 ">
       <div className="flex flex-col items-center gap-10">
-        <h2 className="text-center text-5xl">Vamos trabalhar juntos?</h2>
+        <h2 className="text-center text-5xl sm:text-3xl">
+          Vamos trabalhar juntos?
+        </h2>
         <button className="flex items-center gap-2 rounded-lg bg-blue-500 px-6 py-4 text-white transition hover:bg-blue-600">
           Vamos lá
           <ArrowRight size={24} />

@@ -11,6 +11,22 @@ module.exports = {
         'gradient-hero':
           'var(--gradiant, linear-gradient(169deg, #3060FF 0%, #10299F 100%))',
       },
+      screens: {
+        '2xl': { max: '1535px' },
+        // => @media (max-width: 1535px) { ... }
+
+        xl: { max: '1279px' },
+        // => @media (max-width: 1279px) { ... }
+
+        lg: { max: '1023px' },
+        // => @media (max-width: 1023px) { ... }
+
+        md: { max: '767px' },
+        // => @media (max-width: 767px) { ... }
+
+        sm: { max: '639px' },
+        // => @media (max-width: 639px) { ... }
+      },
       colors: {
         blue: {
           50: '#e8f4ff',
