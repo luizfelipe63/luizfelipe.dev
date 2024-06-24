@@ -3,7 +3,7 @@ import AboutMe from '../assets/me-foto-principal.jpg'
 
 export function About() {
   return (
-    <section className="mx-auto max-w-[1216px] pb-36 pt-20 sm:px-6 sm:py-20">
+    <section id='about' className="mx-auto max-w-[1216px] pb-36 pt-20 sm:px-6 sm:py-20">
       <div className="space-y-4 text-center">
         <span className="tracking-[3px] text-gray-400">SOBRE MIM</span>
         <h2 className="text-center text-5xl sm:text-3xl">

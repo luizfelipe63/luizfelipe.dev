@@ -4,7 +4,7 @@ import { ArrowLeft, ArrowRight } from 'phosphor-react'
 
 export function Projects() {
   return (
-    <section className="mx-auto max-w-[1216px] pb-36 pt-20 sm:px-6 sm:py-20">
+    <section id="projects" className="mx-auto max-w-[1216px] pb-36 pt-20 sm:px-6 sm:py-20">
       <div className="space-y-4 text-center">
         <span className="text-sm tracking-[3px] text-gray-400">PROJETOS</span>
         <h2 className="text-center text-5xl sm:text-3xl">

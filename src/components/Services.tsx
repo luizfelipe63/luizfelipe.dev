@@ -2,7 +2,7 @@ import { Code, Database, StackSimple } from 'phosphor-react'
 
 export function Services() {
   return (
-    <section className="mx-auto max-w-[1216px] pb-36 pt-20 sm:px-6 sm:py-20">
+    <section id='services' className="mx-auto max-w-[1216px] pb-36 pt-20 sm:px-6 sm:py-20">
       <div className="space-y-4 text-center">
         <span className="tracking-[3px] text-gray-400 sm:text-sm">
           SERVIÇOS
