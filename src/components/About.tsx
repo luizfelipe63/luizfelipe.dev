@@ -3,12 +3,12 @@ import AboutMe from '../assets/me-foto-principal.jpg'
 
 export function About() {
   return (
-    <section id='about' className="mx-auto max-w-[1216px] pb-36 pt-20 sm:px-6 sm:py-20">
-      <div className="space-y-4 text-center">
-        <span className="tracking-[3px] text-gray-400">SOBRE MIM</span>
+    <section id='about' className="mx-auto max-w-[1120px] pb-36 pt-20">
+      <div className="text-center flex-col flex gap-3">
         <h2 className="text-center text-5xl sm:text-3xl">
-          Conheça minha história...
+          SOBRE MIM
         </h2>
+        <span className="text-gray-400">Conheça minha história...</span>
       </div>
       <div className="flex justify-around gap-8 pt-20 sm:flex-col">
         <div className="w-[500px] sm:w-full">

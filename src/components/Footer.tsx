@@ -2,8 +2,8 @@ import { ArrowRight, GithubLogo, LinkedinLogo } from 'phosphor-react'
 
 export function Footer() {
   return (
-    <footer className="mx-auto max-w-[1216px] py-20 sm:px-6 sm:py-10 ">
-      <div className="flex flex-col items-center gap-10">
+    <footer className="bg-bg-gradient">
+      <div className="flex flex-col items-center gap-10 py-20 mx-auto max-w-[1120px]">
         <h2 className="text-center text-5xl sm:text-3xl">
           Vamos trabalhar juntos?
         </h2>

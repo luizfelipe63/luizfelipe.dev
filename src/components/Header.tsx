@@ -6,8 +6,8 @@ import ilustacao from '../assets/illustration3.png'
 
 export function Header() {
   return (
-    <header className="flex flex-col items-center bg-bg-gradient px-9 pb-12 text-white sm:px-6 sm:pb-20">
-      <nav className="flex w-full items-center justify-between pt-6 ">
+    <header className="flex flex-col items-center bg-bg-gradient pb-12 text-white sm:px-6 sm:pb-20">
+      <nav className="flex w-full items-center justify-between pt-6 m-auto max-w-[1120px]">
         <div className="flex items-center gap-4">
           <Image
             src={ProfileLogo}
@@ -41,13 +41,13 @@ export function Header() {
           </ul>
         </div>
       </nav>
-      <section className="pt-12 sm:pt-10 flex items-center">
-        <div className="flex flex-col gap-8 sm:gap-6 w-full">
-          <h1 className="w-max rounded-lg bg-gradient-hero px-6 py-3 text-6xl sm:text-3xl">
+      <section className="pt-12 sm:pt-10 flex items-center m-auto max-w-[1120px]">
+        <div className="flex flex-col gap-8 w-full">
+          {/* <h1 className="w-max rounded-lg bg-gradient-hero px-6 py-3 text-6xl sm:text-3xl">
             Prazer, Luiz Felipe
-          </h1>
-          <h2 className="text-5xl sm:text-xl leading-tight">Tenha seu negocio com uma presença online</h2>
-          <p className="text-gray-500 sm:text-sm">
+          </h1> */}
+          <h2 className="text-5xl">Tenha seu negocio com uma presença online agora mesmo</h2>
+          <p className="text-gray-500">
             Sou um profissional altamente qualificado. Com habilidades em React,
             Typescript, JavaScript, NextJS e Node. Assim trasnformo conceitos em
             realidade.{' '}
@@ -59,14 +59,13 @@ export function Header() {
             </button>
           </Link>
         </div>
-        <div className="flex flex-col items-center gap-8 text-center sm:gap-6">
           <Image 
           src={ilustacao} 
           alt=''
-          className='w-full'
+          className=''
+          width={600}
           >
           </Image>
-        </div>
       </section>
     </header>
   )
