@@ -11,25 +11,39 @@ export function Projects() {
         </h2>
         <span className="text-gray-400">Projetos em destaque</span>
       </div>
-      <div className='pt-20 flex flex-col gap-y-12'>
-        <div className="flex justify-evenly gap-10">
-          <Image src={pod} alt='' width={450} className='rounded'>
-          </Image>
-          <div className='flex flex-col justify-center gap-8'>
-            <span className='bg-gradient-hero py-1 px-4 rounded max-w-max'>LANDING PAGE</span>
-            <h1 className='text-4xl'>Pod Saúde Digital</h1>
-            <a href="">Acesse aqui</a>
+      <div className='pt-20 grid grid-cols-2 gap-8'>
+        <div className='flex flex-col gap-6'>
+          <div className='bg-violet-600 w-full h-96 rounded'>
           </div>
+          <div className='flex justify-between'>
+            <h1 className='text-2xl'>Pod Saúde digital</h1>
+            <span className='text-xl py-1 px-4 bg-gray-950 rounded-md'>LANDING PAGE</span>
+          </div>   
         </div>
-        <div className="flex justify-evenly gap-10">
-          <div className='flex flex-col justify-center gap-8'>
-            <span className='bg-gradient-hero py-1 px-4 rounded max-w-max'>LANDING PAGE</span>
-            <h1 className='text-4xl'>Barreto construção</h1>
-            <a href="">Acesse aqui</a>
+        <div className='flex flex-col gap-6'>
+          <div className='bg-orange-100  w-full h-96 rounded'>
           </div>
-          <Image src={barreto} alt='' width={450} className='rounded'>
-          </Image>
-        </div>    
+          <div className='flex justify-between'>
+            <h1 className='text-2xl'>Barreto Construção</h1>
+            <span className='text-xl py-1 px-4 rounded-md bg-gray-950'>LANDING PAGE</span>
+          </div>   
+        </div>
+        <div className='flex flex-col gap-6'>
+          <div className='bg-green-200  w-full h-96 rounded'>
+          </div>
+          <div className='flex justify-between'>
+            <h1 className='text-2xl'>Barreto Construção</h1>
+            <span className='text-xl py-1 px-4 rounded-md bg-gray-950'>LANDING PAGE</span>
+          </div>   
+        </div>
+        <div className='flex flex-col gap-6'>
+          <div className='bg-blue-400  w-full h-96 rounded'>
+          </div>
+          <div className='flex justify-between'>
+            <h1 className='text-2xl'>Barreto Construção</h1>
+            <span className='text-xl py-1 px-4 rounded-md bg-gray-950'>LANDING PAGE</span>
+          </div>   
+        </div>
       </div>
     </section>
   )
