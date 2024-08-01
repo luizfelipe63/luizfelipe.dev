@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import AboutMe from '../assets/me-foto-principal.jpg'
+import { ArrowRight, Download } from 'phosphor-react'
 
 export function About() {
   return (
@@ -12,7 +13,7 @@ export function About() {
       </div>
       <div className="flex justify-around gap-8 pt-20 sm:flex-col">
         <div className="w-[500px] sm:w-full">
-          <Image src={AboutMe} alt="" className="rounded-lg" />
+          <Image src={AboutMe} alt="" className="rounded-lg h-full" />
         </div>
         <div className="max-w-lg space-y-4 text-gray-400">
           <p>Meu nome é Luiz Felipe e sou de Brasília – DF (Brasil).</p>
@@ -27,6 +28,9 @@ export function About() {
             foi onde obtive muitos conhecimentos nas mais diversas áreas de
             criação…
           </p>
+          <button className="flex items-center gap-2 rounded-lg bg-blue-500 px-6 py-4 text-white transition hover:bg-white hover:text-black">
+          Download CV
+        </button>
         </div>
       </div>
     </section>
