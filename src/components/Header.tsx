@@ -1,6 +1,7 @@
 import ProfileLogo from '../assets/mePraia.jpg'
 import { ArrowRight } from 'phosphor-react'
 import Image from 'next/image'
+import { Button } from './ui/button'
 
 export function Header() {
   return (
@@ -20,7 +21,7 @@ export function Header() {
           <ul className="flex gap-11 sm:text-sm items-center">
             <li>
               <a href="#about" className="transition hover:text-gray-400">
-                Quem sou eu 
+                Quem sou eu
               </a>
             </li>
             <li>
@@ -34,7 +35,10 @@ export function Header() {
               </a>
             </li>
             <li>
-              <button className="flex items-center gap-2 rounded-lg px-6 py-4 text-white border border-blue-400 transition hover:bg-blue-400 hover:border-1 hover:border-transparent">Solicitar orçamento <ArrowRight size={24} /></button>
+              <Button variant="secondary">
+                Solicitar proposta
+                <ArrowRight size={24} />
+              </Button>
             </li>
           </ul>
         </div>
@@ -50,24 +54,24 @@ export function Header() {
             Typescript, JavaScript, NextJS e Node. Assim trasnformo conceitos em
             realidade.{' '}
           </p>
-         <div className='w-full border flex justify-between border-blue-400 py-8 px-12 rounded'>
-          <div className='flex flex-col justify-center text-center gap-2'>
-            <h1 className='text-2xl'>70%</h1>
-            <span className='text-gray-500'>Job actviments</span>
+          <div className="w-full border flex justify-between border-blue-400 py-8 px-12 rounded">
+            <div className="flex flex-col justify-center text-center gap-2">
+              <h1 className="text-2xl">70%</h1>
+              <span className="text-gray-500">Job actviments</span>
+            </div>
+            <div className="flex flex-col justify-center text-center gap-2">
+              <h1 className="text-2xl">1.6K</h1>
+              <span className="text-gray-500">Job actviments</span>
+            </div>
+            <div className="flex flex-col justify-center text-center gap-2">
+              <h1 className="text-2xl">$10.4M</h1>
+              <span className="text-gray-500">Job actviments</span>
+            </div>
+            <div className="flex flex-col justify-center text-center gap-2">
+              <h1 className="text-2xl">+24</h1>
+              <span className="text-gray-500">Job actviments</span>
+            </div>
           </div>
-          <div className='flex flex-col justify-center text-center gap-2'>
-            <h1 className='text-2xl'>1.6K</h1>
-            <span className='text-gray-500'>Job actviments</span>
-          </div>
-          <div className='flex flex-col justify-center text-center gap-2'>
-            <h1 className='text-2xl'>$10.4M</h1>
-            <span className='text-gray-500'>Job actviments</span>
-          </div>
-          <div className='flex flex-col justify-center text-center gap-2'>
-            <h1 className='text-2xl'>+24</h1>
-            <span className='text-gray-500'>Job actviments</span>
-          </div>
-         </div>
         </div>
       </section>
     </header>

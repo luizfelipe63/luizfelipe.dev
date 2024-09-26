@@ -10,8 +10,10 @@ module.exports = {
       backgroundImage: {
         'gradient-hero':
           'var(--gradiant, linear-gradient(169deg, #3060FF 0%, #10299F 100%))',
-        'bg-gradient': 
-          'var(--gradiant, linear-gradient(45deg, hsla(0, 0%, 0%, 1) 49%, hsla(0, 0%, 0%, 1) 58%, hsla(230, 82%, 34%, 1) 100%))' 
+        'bg-gradient':
+          'var(--gradiant, linear-gradient(45deg, hsla(0, 0%, 0%, 1) 49%, hsla(0, 0%, 0%, 1) 58%, hsla(230, 82%, 34%, 1) 100%))',
+        'gradient-footer':
+          'var(--gradiant, linear-gradient(130deg, rgba(0,0,0,1) 45%, rgba(16,41,159,1) 100%))',
       },
       screens: {
         '2xl': { max: '1535px' },

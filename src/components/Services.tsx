@@ -2,14 +2,10 @@ import { Code, Database, Desktop, StackSimple } from 'phosphor-react'
 
 export function Services() {
   return (
-    <section id='services' className="mx-auto max-w-[1120px] pb-36 pt-20">
+    <section id="services" className="mx-auto max-w-[1120px] pb-36 pt-20">
       <div className="text-center flex-col flex gap-3">
-        <h2 className="text-center text-5xl sm:text-3xl">
-          SERVIÇOS
-        </h2>
-        <span className="text-gray-400">
-          Meus serviços prestados
-        </span>
+        <h2 className="text-center text-5xl sm:text-3xl">SERVIÇOS</h2>
+        <span className="text-gray-400">Meus serviços prestados</span>
       </div>
       <div className="flex pt-20 place-items-center gap-6">
         <div className="bg-neutral-950 px-6 py-8 rounded">
@@ -22,7 +18,7 @@ export function Services() {
               focado em seu público e forte apelo visual
             </p>
           </div>
-        </div>  
+        </div>
         <div className="bg-neutral-950 px-6 py-8 rounded">
           <div className="flex flex-col gap-5 items-center">
             <StackSimple size={36} />
@@ -33,7 +29,7 @@ export function Services() {
               focado em seu público e forte apelo visual
             </p>
           </div>
-        </div>  
+        </div>
         <div className="bg-neutral-950 px-6 py-8 rounded">
           <div className="flex flex-col gap-5 items-center">
             <StackSimple size={36} />
@@ -44,7 +40,7 @@ export function Services() {
               focado em seu público e forte apelo visual
             </p>
           </div>
-        </div>  
+        </div>
       </div>
     </section>
   )

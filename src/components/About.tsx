@@ -1,14 +1,12 @@
 import Image from 'next/image'
 import AboutMe from '../assets/me-foto-principal.jpg'
-import { ArrowRight, Download } from 'phosphor-react'
+import { Button } from './ui/button'
 
 export function About() {
   return (
-    <section id='about' className="mx-auto max-w-[1120px] pb-36 pt-20">
+    <section id="about" className="mx-auto max-w-[1120px] pb-36 pt-20">
       <div className="text-center flex-col flex gap-3">
-        <h2 className="text-center text-5xl sm:text-3xl">
-          SOBRE MIM
-        </h2>
+        <h2 className="text-center text-5xl sm:text-3xl">SOBRE MIM</h2>
         <span className="text-gray-400">Conheça minha história...</span>
       </div>
       <div className="flex justify-around gap-8 pt-20 sm:flex-col">
@@ -28,9 +26,7 @@ export function About() {
             foi onde obtive muitos conhecimentos nas mais diversas áreas de
             criação…
           </p>
-          <button className="flex items-center gap-2 rounded-lg bg-blue-500 px-6 py-4 text-white transition hover:bg-white hover:text-black">
-          Download CV
-        </button>
+          <Button>Download CV</Button>
         </div>
       </div>
     </section>

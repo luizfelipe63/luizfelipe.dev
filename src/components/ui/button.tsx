@@ -4,12 +4,12 @@ import { tv, type VariantProps } from 'tailwind-variants'
 const button = tv({
   base: 'flex items-center gap-2 rounded-lg text-white',
 
-
   variants: {
     variant: {
       primary:
-        'bg-blue-500 text-white transition hover:bg-white hover:text-black',
-      secondary: 'text-white border border-blue-400 transition hover:bg-blue-400 hover:border-1 hover:border-transparent',
+        'bg-blue-500 text-white transition hover:bg-white hover:text-black text-center justify-center',
+      secondary:
+        'text-white border border-blue-400 transition hover:bg-blue-400 hover:border-1 hover:border-transparent',
     },
 
     size: {
